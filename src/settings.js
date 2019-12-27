@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Vue Element Admin',
+  title: '博烨读书',
 
   /**
    * @type {boolean} true | false
@@ -9,19 +9,19 @@ module.exports = {
 
   /**
    * @type {boolean} true | false
-   * @description Whether need tagsView
+   * @description Whether need tagsView 页面右侧系统布局配置
    */
   tagsView: true,
 
   /**
    * @type {boolean} true | false
-   * @description Whether fix the header
+   * @description Whether fix the header 固定头部
    */
   fixedHeader: false,
 
   /**
    * @type {boolean} true | false
-   * @description Whether show the logo in sidebar
+   * @description Whether show the logo in sidebar 是否显示logo图标
    */
   sidebarLogo: false,
 

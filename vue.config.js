@@ -92,9 +92,9 @@ module.exports = {
       .end()
 
     config
-      // https://webpack.js.org/configuration/devtool/#development
+      // 源码报错配置 打开开发者模式，选择sources， 选择webpack
       .when(process.env.NODE_ENV === 'development',
-        config => config.devtool('cheap-source-map')
+        config => config.devtool('cheap-source-map') // cheap-source-map不会完全显示源码 source-maps 能全部显示源码。 构建速度最快的是eval
       )
 
     config
